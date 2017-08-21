@@ -1,0 +1,436 @@
+/*Stylesheet */
+
+body {font-family: 'Noto Sans', sans-serif;
+    color:#413f3f; }
+
+/*Standart settings*/
+    .size {background-color: #f7fffb;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        width: 100vw;
+        
+        font-family: 'Noto Sans', sans-serif;
+    
+        border-top: 10px solid transparent;}
+
+    .green {background-color: #94d05a;
+        border-color: #a2bbcf;}
+
+    .blue {border-color: #a2bbcf;}
+
+    .green-top {border-color: #94d05a;}
+
+    li{font-family: 'Noto Sans', sans-serif;}
+
+/*Navbar CSS */
+    nav.navbar.navbar-default {
+        background: none;
+        box-shadow: none;
+        border: none;
+        background-color: #a2bbcf;
+        height: 60px;
+        margin: auto;}
+
+    .prag-nav-link {margin-right: 15px;
+        margin-left: 15px;}
+
+    #pragbinavlogo {float:left;
+        position: absolute;
+        z-index: 2;}
+
+    #pragbinavimg {margin-left: 120px;}
+    
+    .active {font-weight: 400;
+        background-color: aqua;
+        text-decoration: underline;
+        text-decoration-color: white;}
+
+/*Introduction CSS */
+    .container.intro {max-width: 1100px;
+        margin: auto;}
+
+    .intro-image {float: left;
+        max-width: 400px;
+        border-radius: 40px;
+        margin-right: 5%;
+        margin-left: 5%;}
+
+    .intro-article {text-align: center;
+        max-width: 700px;
+        margin: auto;
+        /*max-width: 450px;
+        min-width: 100px;
+        float: left;
+        margin-right: 5%;
+        margin-left: 5%;*/}
+
+    /*Jquery script which removes elements depending on size*/
+    /*Max-width is 1000 px because this is the width of an Ipad */
+    @media (max-width: 1000px) 
+    {
+        .intro-article
+        {
+            font-size: 1em;
+            max-width: 600px;
+        }
+    }
+
+    @media (min-width: 1000px) 
+    {
+        .intro-article
+        {
+            font-size: 1.5em;
+        }
+    }
+
+    #intro-title {text-align: center;}
+
+    #intro-link {float: right;
+        padding: 10px;
+        font-size: 0.7em;}
+
+    @media (max-width: 1000px) 
+    {
+        #intro-link
+        {
+            font-size: 1em;
+        }
+    }
+
+/*Company story CSS */
+    .container.story {max-width: 1100px;
+        margin: auto;}
+
+    .story-article {max-width: 450px;
+        min-width: 100px;
+        margin-right: 5%;
+        margin-left: 5%;}
+
+    #story-title {text-align: center;}
+
+    #story-link {float: right;
+        padding: 10px;}
+
+
+    .story-image {
+        max-width: 400px;
+        border-radius: 40px;
+        float: right;}
+
+/*Profile CSS */
+    .container.profile {max-width: 800px;
+        margin: auto;}
+
+    .profile-image {
+        max-width: 350px;
+        border-radius: 40px;
+        margin: auto;
+        padding-top: 3%}
+
+    .profile-article {max-width: 450px;
+        min-width: 100px;}
+
+    #profile-title {text-align: center;}
+
+/*Technologies CSS */
+    .tech-title {text-align: center;}
+
+    #tech-p {float: left;
+        max-width: 400px;}
+
+#tech-list {display: block;
+    margin-top: 20px;
+    list-style-type: none;}
+
+
+/*Jquery script which removes elements depending on size*/
+/*Max-width is 1000 px because this is the width of an Ipad */
+@media (max-width: 1000px) 
+{
+    #tech-technologies, #tech-presentation
+    {
+        max-width: 600px;
+        display: block;
+        text-align: center;
+    }
+}
+
+@media (min-width: 1000px) 
+{
+    #tech-technologies
+    {
+        float: left;
+        max-width: 600px;
+        margin-left: 150px;
+    }
+    #tech-presentation
+    {
+        float: right;
+        max-width: 600px;
+        margin-right: 150px;
+    }
+    .technologies
+    {
+        max-width: 1000px;
+        margin: auto;
+    }
+}
+
+
+/*Pegasus CSS */
+    .pegasus-title {text-align: center;
+        padding-bottom: 2%;}
+
+    .pegasus-img {max-width: 15%;
+        display: block;
+        margin: auto;}
+
+    #pegasus-p {max-width: 550px;
+        margin: auto;}
+
+/*Tools CSS */
+    .title {text-align: center;
+        padding-bottom: 2%;}
+
+    #tools {max-width: 400px;
+        margin: auto;
+        text-align: center;
+        padding-bottom: 2%;}
+
+/*Circles CSS*/
+
+
+/*Jquery script which removes elements depending on size*/
+/*Max-width is 1000 px because this is the width of an Ipad */
+@media (max-width: 1000px) 
+{
+    #circle
+    {
+        display: none;
+    }
+}
+
+@media (min-width: 1000px) 
+{
+    #circle-alternative
+    {
+        display: none;
+    }
+}
+
+.ch-info-wrap .ch-info .ch-info-back {
+    background-color: transparent;
+}
+
+.ch-info-wrap .ch-info .text{
+    color: #413f3f;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1em;
+    font-style: normal;
+}
+
+.ch-info .link {
+    color: #413f3f;
+    font-style: normal;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: 0,5em;
+    font-family: 'Noto Sans' sans-serif;
+}
+
+.ch-info .link :hover{
+    color: pink;}
+
+
+/*Dummy Css*/
+
+    .w3-container:after,.w3-container:before,.w3-panel:after,.w3-panel:before,.w3-row:after,.w3-row:before,.w3-row-padding:after,.w3-row-padding:before,
+    .w3-cell-row:before,.w3-cell-row:after,.w3-clear:after,.w3-clear:before,.w3-bar:before,.w3-bar:after{content:"";display:table;clear:both}
+
+
+
+    .w3-col{float:left;width:100%}
+    .w3-col.s3{width:24.99999%}
+    .w3-display-container:hover .w3-display-hover{display:block}
+    .w3-display-container:hover span.w3-display-hover{display:inline-block}
+    .w3-display-hover{display:none}
+
+
+    .w3-row-padding,.w3-row-padding>.w3-half,.w3-row-padding>.w3-third,.w3-row-padding>.w3-twothird,.w3-row-padding>.w3-threequarter,.w3-row-padding>.w3-quarter,.w3-row-padding>.w3-col{padding:0 8px}
+    .w3-container,.w3-panel{padding:0.01em 16px}
+
+
+    .w3-opacity,.w3-hover-opacity:hover{opacity:0.60}
+
+    .dummy-text {max-width: 450px;
+    margin: auto;}
+
+    .dummy-title {text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20%;
+    height: 120px;
+    background-color: #94d05a;
+    border-radius: 8px;
+    color: #413f3f;}
+
+    #dummy-size{max-width: 700px;}
+
+    #dummy-title2 {text-align: center;}
+
+/*About me DCT CSS */
+
+    .container.dct {max-width: 1100px;
+        margin: auto;}
+
+    #dct-consulting {background-image: url(Elements/img/DCT1.png);
+        /*background-position: 80px 0px;*/}
+
+    #dct-development {background-image: url(Elements/img/DCT3.png);
+        /*background-position: 65px 0px;*/}
+
+    #dct-teaching {background-image: url(Elements/img/DCT2.png);
+        /*background-position: 90px 0px;*/}
+
+    #dct-development, #dct-consulting, #dct-teaching {
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: left;
+        
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;}
+
+    .dct-content {max-width: 250px;
+        margin: auto;}
+
+/*References CSS */
+    .reference-mini {max-width: 1200px;}
+
+     .reference-card {width: 30%;
+        background-color: pink;}
+
+    .img{max-height: 120px;}
+
+    .reference-p {text-align: center;}
+
+    .card.col-xs-12.col-md-6.col-lg-4 {text-align: center;
+        padding: 2%;
+        background-color: transparent;
+        border: none;
+        color: #413f3f;}
+
+    #reference-title{text-align: center;}
+
+    #reference-text{text-align: center;}
+
+/*Sliders CSS*/
+
+    .jssorb10 {
+        position: absolute;
+        }
+
+    .jssorb10 div, .jssorb10 div:hover, .jssorb03 .av {
+        position: absolute;
+        /* size of bullet elment */
+        width: 21px;
+        height: 21px;
+        text-align: center;
+        line-height: 21px;
+        color: white;
+        font-size: 12px;
+        background: url('img/b10.png') no-repeat;
+        overflow: hidden;
+        cursor: pointer;}
+
+    .jssorb10 div { background-position: -5px -4px; }
+    .jssorb10 div:hover, .jssorb03 .av:hover { background-position: -35px -4px; }
+    .jssorb10 .av { background-position: -65px -4px; }
+    .jssorb10 .dn, .jssorb10 .dn:hover { background-position: -95px -4px; }
+
+    .jssora01l, .jssora01r {
+        display: block;
+        position: absolute;
+        /* size of arrow element */
+        width: 55px;
+        height: 55px;
+        cursor: pointer;
+        background: url('Elements/img/a01.png') no-repeat;
+        overflow: hidden;}
+
+    .jssora01l { background-position: -3px -33px; }
+    .jssora01r { background-position: -63px -33px; }
+    .jssora01l:hover { background-position: -123px -33px; }
+    .jssora01r:hover { background-position: -183px -33px; }
+    .jssora01l.jssora03ldn { background-position: -243px -33px; }
+    .jssora01r.jssora03rdn { background-position: -303px -33px; }
+    .jssora01l.jssora03lds { background-position: -3px -33px; opacity: .3; pointer-events: none; }
+    .jssora01r.jssora03rds { background-position: -63px -33px; opacity: .3; pointer-events: none; }
+
+/* Contact CSS */
+    .pragbilogo{
+        height: auto; 
+        width: auto; 
+        max-width: 250px; 
+        max-height: 250px;
+        display: block;
+        margin: 0 auto;
+    }
+    .pragbititle{
+        height: auto; 
+        width: auto; 
+        max-width: 250px; 
+        max-height: 250px;
+        display: block;
+        margin: 0 auto;
+    }
+    .contact-left{
+        text-align: right;
+    }
+    .contact-right{
+        text-align: left;
+    }
+    #map {
+        height: 300px;
+        width: 60%;
+        margin-left: 20%;
+     }
+
+/*Comment Css*/
+
+.container.comment {max-width: 500px;
+    margin: auto;}
+
+
+/*Footer CSS*/
+   /*full footer style */
+    #footer {background-color: #a2bbcf;
+            padding-top: 2%;
+            padding-bottom: 2%;
+            font-family: 'Noto Sans', sans-serif;
+
+            border-top: 10px solid #94d05a;}
+    
+    .footer-size {max-width: 1200px;
+        margin: auto;}
+
+
+    .footer-title, #footer-copy {text-align: center;}
+
+    /*Center content */
+
+    #footer-2 {max-width: 300px;}
+
+    .footer-contact {max-width: 350px;}
+
+    #footer-contact-1 {float: left;
+        padding-top: 15px;
+        text-align: right;}
+
+    #footer-contact-2 {float: right;
+        padding-top: 15px;}
+
+
+
+    #footer-1, #footer-3 {list-style-type: none;}
+
+#footer-3 {text-align: center;}
